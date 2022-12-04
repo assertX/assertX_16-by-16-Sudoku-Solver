@@ -8,6 +8,8 @@ In this project, you are going to use recursion to solve a variant of Sudoku puz
 
 •The input file contains 16 lines of 16 characters each.  A dot ('.') is used to indicate a blank cell.  Therefore, the sample puzzle would be stored in the input file
 
+The puzzle.txt I added has 28 solutions, the output file will display these solutions. The puzzle_no_solution.txt file will produce a blank output file because there are no solutions. I generated a console message to the user to tell them that the puzzle has no solutions.
+
 
 # The Output File
 •The output file is a plain text file (filename: solutions.txt).

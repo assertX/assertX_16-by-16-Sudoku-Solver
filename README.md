@@ -19,3 +19,8 @@ The puzzle.txt I added has 28 solutions, the output file will display these solu
 •Each solution should be presented the same as in the input file with all the blanks appropriately filled.
 
 •Each solution needs to be numbered (e.g., "Solution 1", "Solution 2", and so on).
+
+
+## Other notes
+
+I tried two different ways to solve the puzzle. We can either loop through a character array containing all 16 characters. Or we can loop through character 0 to 9 and then loop through character a to f, so no arrays. I did some speed tests and with puzzle's that have a bunch of solutions ran faster using the array method. I will provide both ways to whoever wants to reference them for better understanding.

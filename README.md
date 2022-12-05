@@ -23,4 +23,12 @@ The puzzle.txt I added has 28 solutions, the output file will display these solu
 
 ## Other notes
 
-I tried two different ways to solve the puzzle. We can either loop through a character array containing all 16 characters. Or we can loop through character 0 to 9 and then loop through character a to f, so no arrays. I did some speed tests and with puzzle's that have a bunch of solutions ran faster using the array method. I will provide both ways to whoever wants to reference them for better understanding.
+I tried two different ways to solve the puzzle. 
+
+## Array Method
+In this method I created an array of 16 characters, 0 to 9 and a to f. The logic is to loop through the array and check each cell to see if it will work. If not, make the cell blank ("."). I prefer this method because it's less code, cleaner, and to me easier to understand. It also ran slightly faster than the No Array Method with the puzzle's that had a higher solution count.
+
+## No Array Method
+In this method there is no arrays needed. The logic is to loop using the characters 0 to 9, check to see if it will work, If not, make the cell blank ("."). Then we loop using the characters a to f, check to see if it will work, If not, make the cell blank ("."). This method ran faster than the Array Method with Puzzle's that have 1 or no solutions. To some, this method might be easier to read, but it takes up more space.
+
+Either method can be used and will run. The speed between the two is very small. If you care about a 20 to 40 millisecond difference, then the Array Method will be good.
